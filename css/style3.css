@@ -1,0 +1,334 @@
+body {
+	text-align: center;
+	background: #222629;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	border: 2px orange solid;
+	color: oranged;
+	padding: 20px;
+	font-size: 20px;
+}
+
+li:hover {
+	background-color: #86C232;
+	color: gray;
+}
+
+.menu {
+	height: 10vh;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 20px;
+	padding: 0;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: 9999;
+  width: 95%;
+  height: 10vh;
+}
+
+.logo {
+	height: 20vh;
+	float: left;
+	text-align: center;
+	background-image: url(../images/finally.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+li{
+	padding: 10px;
+	background: black;
+	border: 5px black solid;
+	color: white;
+	text-align: center;
+	font-family: impact;
+	border: 6px;
+	list-style: none;
+}
+
+.container {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 100px;
+}
+
+.box1 {
+	display: grid;
+	background-color: #474B4F;
+	padding: 10px
+}
+
+.pic1 {
+	height: 30vh;
+	background-image: url(../images/kwek1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic1:hover {
+	height: 30vh;
+	background-image: url(../images/kwek2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all .5s ease-out;
+}
+
+.text1 {
+	color: white;
+}
+
+.box2 {
+	display: grid;
+	background-color: #474B4F;
+	padding: 10px
+}
+
+.pic22 {
+	height: 30vh;
+	background-image: url(../images/fishball1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic22:hover {
+	height: 30vh;
+	background-image: url(../images/fishball2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all .5s ease-out;
+}
+
+.text22 {
+	color: white;
+}
+
+.box3 {
+	display: grid;
+	background-color: #474B4F;
+	padding: 10px
+}
+
+.pic3 {
+	height: 30vh;
+	background-image: url(../images/bibingka1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic3:hover {
+	height: 30vh;
+	background-image: url(../images/bibingka2.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all .5s ease-out;
+}
+
+.text33 {
+	color: white;
+}
+
+.container2 {
+	height: 60vh;
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 20px;
+}
+
+.left2 {
+	padding: 10px;
+	background: #474B4F;
+}
+
+.pic2 {
+	height: 40vh;
+	background-image: url(../images/shawarma1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.pic2:hover {
+	height: 40vh;
+	background-image: url(../images/shawarma2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: all .5s ease-out;
+}
+
+.name {
+	color: white;
+	font-size: 20px;
+}
+
+.text2 {
+	padding: 5px;
+	background: #6B6E70;
+	color: #86C232;
+}
+
+.container3 {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 5px;
+}
+
+.box13 {
+	display: grid;
+	background-color: #474B4F;
+	padding: 10px
+}
+
+.pic13 {
+	height: 30vh;
+	background-image: url(../images/taco1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic13:hover {
+	height: 30vh;
+	background-image: url(../images/taco2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all .5s ease-out;
+}
+
+.text13 {
+	color: white;
+}
+
+.box23 {
+	display: grid;
+	background-color: #474B4F;
+	padding: 10px
+}
+
+.pic23{
+	height: 30vh;
+	background-image: url(../images/empa1.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic23:hover {
+	height: 30vh;
+	background-image: url(../images/empa2.png);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all .5s ease-out;
+}
+
+.text23 {
+	color: white;
+}
+
+.box33 {
+	display: grid;
+	background-color: #474B4F;
+	padding: 10px
+}
+
+.pic33 {
+	height: 30vh;
+	background-image: url(../images/lemon1.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic33:hover {
+	height: 30vh;
+	background-image: url(../images/lemon2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all .5s ease-out;
+}
+
+.text3 {
+	color: white;
+}
+
+.container4 {
+	height: 60vh;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 20px;
+}
+
+.left4 {
+	padding: 10px;
+	background: #474B4F;
+}
+
+.pic4 {
+	height: 40vh;
+	background-image: url(../images/milktea1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.pic4:hover {
+	height: 40vh;
+	background-image: url(../images/milktea2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: all .5s ease-out;
+}
+
+.text4 {
+	padding: 5px;
+	background: #6B6E70;
+	color: #86C232;
+}
+
+.name2 {
+	color: white;
+	font-size: 20px;
+}
+
+.footer{
+	color: #86C232;
+	font-size: 5px;
+    padding: 5px;
+    background: #6B6E70;
+	margin: 7px;
+}
+
+a {
+	text-decoration: none;
+}
